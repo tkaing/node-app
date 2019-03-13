@@ -3,7 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	res.render('index', { title: 'Node App' });
+	var ville = req.param('nom_ville');
+	res.render('ville', { title: 'Node App', ville: ville });
 });
 
 module.exports = router;
