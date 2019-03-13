@@ -13,3 +13,7 @@ a {
     margin-right: 10px;
     float: left;
 }
+
+.description {
+	white-space: pre-wrap;
+}
