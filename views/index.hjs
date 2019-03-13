@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" href="/images/favicon.png" />
   </head>
   <body>
+  	<img src="/images/favicon.png" class="favicon">
     <h1>{{ title }}</h1>
     <p>Welcome to {{ title }}</p>
   </body>
