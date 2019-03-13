@@ -5,7 +5,6 @@ var router = express.Router();
 router.post('/', function(req, res, next) {
 	var ville = req.body.nom_ville;
 	var description = req.body.description;
-	description = 
 	res.render('ville', { title: 'Node App', ville: ville, description: description });
 });
 
