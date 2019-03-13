@@ -26,7 +26,7 @@ router.post('/', function(req, res, next) {
 			var message = 'Ville introuvable';
 			var success = false;
 
-			if (result.matches !== null) {
+			if (result.matches !== null || ville === '') {
 				message = ville;
 				success = true;
 			}
